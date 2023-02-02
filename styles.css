@@ -1,3 +1,28 @@
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./fonts/ProximaNova-Bold.woff2") format("woff2"),
+    url("./fonts/ProximaNova-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Hans Kendrick";
+  src: url("./fonts/HansKendrick-Regular.woff2") format("woff2"),
+    url("./fonts/HansKendrick-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gibson";
+  src: url("./fonts/Gibson-Bold.woff2") format("woff2"),
+    url("./fonts/Gibson-Bold.woff2") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   font-family: "Inconsolata", monospace;
   font-family: "Roboto", sans-serif;
@@ -19,6 +44,12 @@ body {
   object-fit: cover;
   margin-bottom: 3%;
 }
+.gibson {
+  font-family: "Gibson";
+}
+.proxima-nova {
+  font-family: "Proxima Nova";
+}
 .subtitle {
   font-weight: 700;
 }
@@ -30,6 +61,9 @@ ul li {
   font-family: "Inconsolata", monospace;
   font-weight: 900;
   font-size: 18px;
+}
+.hans-kendrick {
+  font-family: "Hans Kendrick";
 }
 button {
   font-family: "Aboreto", cursive;
